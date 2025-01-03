@@ -21,9 +21,10 @@ display: flex;
 
 .text-date{
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 1rem;
     color: aliceblue;
     font-size: 3rem;
+    margin-top: 20px;
 }
 
 .text-city{
@@ -32,11 +33,16 @@ color: aliceblue;
 font-weight: bold;
 font-size: 3rem;
 
+
 }
 
 .cloud-icon{
     width: 10rem;
     height: 10rem;
+    margin-top: -2rem; 
+    padding-bottom: 0; 
+    
+    
 
 
 
@@ -70,4 +76,43 @@ color: rgb(14, 12, 12);
     font-weight: bold;
     font-style: italic;
     font-size: 1rem;
+}
+
+.Party{
+    font-style: italic;
+    
+    color:antiquewhite
+
+}
+
+.num1{
+color: antiquewhite;
+font-size: 4rem;
+margin-top: 1rem;
+}
+
+
+
+.icon-Weather{
+    width: 2rem;
+    height: auto;
+    margin-bottom: 4.5rem; 
+    margin-left: 2.5rem; 
+    margin-right: .5rem; 
+    padding: 0%; 
+    display: block; 
+    
+}
+
+
+.icon-container {
+    display: flex; 
+justify-content: center;
+    align-items: center;
+
+}
+
+.png-text{
+color: bisque;
+font-weight: bold;
 }
