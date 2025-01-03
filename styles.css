@@ -10,13 +10,14 @@ display: flex;
 }
 
 .bacground-page{
-    width: 40rem;
-    height: 45rem;
+    width: 100%;
+    height: 100%;
     background-color: #001a31;
     margin: auto;
     background: linear-gradient(to bottom, #001f3f 50%, rgba(4,102,93,255) ); 
     box-shadow: inset 0 -20px 30px rgba(0, 0, 0, 0.2); 
     text-align: center;
+    
 }
 
 .text-date{
