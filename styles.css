@@ -97,7 +97,7 @@ margin-top: 1rem;
     width: 2rem;
     height: auto;
     margin-bottom: 4.5rem; 
-    margin-left: 2.5rem; 
+    margin-left: .5rem; 
     margin-right: .5rem; 
     padding: 0%; 
     display: block; 
@@ -109,6 +109,8 @@ margin-top: 1rem;
     display: flex; 
 justify-content: center;
     align-items: center;
+    
+    
 
 }
 
@@ -116,3 +118,18 @@ justify-content: center;
 color: bisque;
 font-weight: bold;
 }
+
+.day-text {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: auto;
+    padding-bottom: 1rem;
+}
+
+.weather-item {
+    display: flex;
+    flex-direction: column; /* آیتم‌ها در ستون قرار می‌گیرند */
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; /* فاصله بین ستون‌ها */
+  }
