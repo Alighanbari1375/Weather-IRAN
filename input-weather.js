@@ -1,6 +1,6 @@
 document.getElementById('resullte').addEventListener('click', function () {
     const city = document.getElementById('input-text').value;
-    const apiKey = "10e19306ca0c4757a9d194225250301"; 
+    const apiKey = "0db9da1481944fc98aa195943250401"; 
     const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
     
     fetch(url)
@@ -19,11 +19,14 @@ document.getElementById('resullte').addEventListener('click', function () {
             
             document.getElementById('num1').innerText = `${temp}°`;
             document.getElementById('cityName').innerText = cityName;
-            document.getElementById('weatherDescription').innerText = weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1); // نمایش 
+            document.getElementById('weatherDescription').innerText = weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1); 
         })
         .catch(error => {
             document.getElementById('num1').innerText = 'خطا: ' + error.message;
             document.getElementById('cityName').innerText = '';
             document.getElementById('weatherDescription').innerText = '';
+            
         });
 });
+
+

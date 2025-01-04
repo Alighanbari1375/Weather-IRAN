@@ -49,29 +49,43 @@ font-size: 3rem;
 
 }
 
-#input-text{
-width: 9rem;
-height: 1.5rem;
-margin-right: auto;
-margin-left: auto;
-background-color: #83afb8;
-border-radius: 1rem;
-font-size: 1.2rem;
-color: rgb(14, 12, 12);
 
+#input-text {
+    width: 10rem; 
+    height: 2.5rem; 
+    margin: 1rem auto; 
+    padding: 0 1rem; 
+    background-color: #1e53b4; 
+    border-radius: 1.5rem; 
+    border: none; 
+    color: #ffffff; 
+    font-size: 1.2rem; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
 }
 
-.name-city{
-    color: aliceblue;
-    font-size: 15px;
-    font-weight: bold ;
-    margin-right: 0.5rem;
 
+#input-text:focus {
+    outline: none; 
+    background-color: #125797; 
+    box-shadow: 0 0 15px rgba(6, 181, 212, 0.5); 
+}
+
+
+#input-text:hover {
+    background-color: #3e8085; 
+}
+
+
+@media (max-width: 600px) {
+    #input-text {
+        width: 80%; 
+    }
 }
 
 #resullte{
-    width: 12%;
-    height: 4%;
+    width: 5%;
+    height: 30px;
     background-color: rgb(182, 216, 230);
     border-radius: 1rem;
     font-weight: bold;
@@ -112,6 +126,8 @@ justify-content: center;
     align-items: center;
     
     
+    
+    
 
 }
 
@@ -133,4 +149,10 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     margin: 0 10px; /* فاصله بین ستون‌ها */
-  }
+}
+
+
+
+#resullte:hover{
+    background-color: #1fa361;
+}
